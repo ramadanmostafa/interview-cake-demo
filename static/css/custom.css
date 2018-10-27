@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
 .header {
     width: 100%;
     height: 50px;
@@ -14,4 +19,69 @@
     text-align: center;
     vertical-align: center;
     background-color: lightskyblue;
+}
+.colored {
+    color: dodgerblue;
+}
+.back-link {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+p {
+   padding-top: 10px;
+}
+.input-exercises {
+    width: 40px;
+
+}
+.input-exercises-label {
+    width: auto;
+    margin-top: 8px;
+}
+.blue {
+    width: 100%;
+    background-color: aliceblue;
+    margin-right: auto;
+    margin-left: auto;
+}
+.btn-show-less {
+    color: dodgerblue;
+    border-color: dodgerblue;
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: auto;
+    margin-right: 40px;
+}
+.section-title{
+    padding-top: 20px;
+}
+.card-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card.top-card {
+    background-color: white;
+}
+.card.bottom-card {
+    background-color: aliceblue;
+}
+.separator {
+    width: 10%;
+    height: 20px;
+}
+.card {
+    width: 45%;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+.card-icon {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.margin-section {
+    margin-bottom: 50px
+}
+.padding-section {
+    padding-bottom: 50px;
 }

@@ -1,5 +1,148 @@
 {% extends "demo/base.html" %}
 {% load staticfiles %}
 {% block content %}
-    TEST
+    <div class="back-link">
+        <i class="fa fa-long-arrow-left colored"></i>
+        Jump to where you left off: <a href="#" class="colored">Heading Goes Here</a>
+    </div>
+
+    <legend><h1>The Interview Cake Course</h1></legend>
+    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here,
+        content here’, making it look like readable English.
+    </p>
+    <p>
+        Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
+        and a search for ‘lorem ipsum’ will uncover many web sites still in their infancy. Various versions have evolved over the years,
+        sometimes by accident, sometimes on purpose (injected humour and the like).
+    </p>
+
+    <div class="back-link row">
+        <span class="colored col-md-10 input-exercises-label">Give me exercises and content in:</span>
+        <input class="form-control col-md-2 input-exercises" type="text">
+    </div>
+{% endblock %}
+{% block middle_html %}
+    <div class="row section-title"><h4>SECTION: 1</h4></div>
+    <div class="row">
+        <h1 class="col-md-6">General topic</h1>
+        <button class="col-md-6 pull-right btn btn-show-less">
+            <i class="fa fa-arrow-up colored"></i> &nbsp;&nbsp; Show Less
+        </button>
+    </div>
+    <hr/>
+    <div class="row card-title">READING</div>
+    <div class="row">
+        <div class="col-md-5 card top-card">
+            <div class="row">
+                <h2 class="colored col-md-10">Heading</h2>
+                <span class="col-md-2 pull-right">
+                    <i class="fa fa-paper-plane colored card-icon"></i>
+                    <i class="fa fa-book colored card-icon"></i>
+                </span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh elit sed diam nonummy nibh...</p>
+        </div>
+        <div class="col-md-2 separator"></div>
+        <div class="col-md-5 card top-card">
+            <div class="row">
+                <h2 class="colored col-md-10">Heading</h2>
+                <span class="col-md-2 pull-right">
+                    <i class="fa fa-paper-plane colored card-icon"></i>
+                    <i class="fa fa-book colored card-icon"></i>
+                </span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh elit sed diam nonummy nibh...</p>
+        </div>
+    </div>
+    <div class="row card-title">QUESTIONS</div>
+    <div class="row">
+        <div class="col-md-5 card top-card">
+            <div class="row">
+                <h2 class="colored col-md-10">Heading</h2>
+                <span class="col-md-2 pull-right">
+                    <i class="fa fa-paper-plane colored card-icon"></i>
+                    <i class="fa fa-book colored card-icon"></i>
+                </span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh elit sed diam nonummy nibh...</p>
+        </div>
+        <div class="col-md-2 separator"></div>
+        <div class="col-md-5 card top-card">
+            <div class="row">
+                <h2 class="colored col-md-10">Heading</h2>
+                <span class="col-md-2 pull-right">
+                    <i class="fa fa-paper-plane colored card-icon"></i>
+                    <i class="fa fa-book colored card-icon"></i>
+                </span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh elit sed diam nonummy nibh...</p>
+        </div>
+    </div>
+{% endblock %}
+{% block bottom_html %}
+    <div class="row section-title"><h4>SECTION: 1</h4></div>
+    <div class="row">
+        <h1 class="col-md-6">General topic</h1>
+        <button class="col-md-6 pull-right btn btn-show-less">
+            <i class="fa fa-arrow-up colored"></i> &nbsp;&nbsp; Show Less
+        </button>
+    </div>
+    <hr/>
+    <div class="row card-title">READING</div>
+    <div class="row">
+        <div class="col-md-5 card bottom-card">
+            <div class="row">
+                <h2 class="colored col-md-10">Heading</h2>
+                <span class="col-md-2 pull-right">
+                    <i class="fa fa-paper-plane colored card-icon"></i>
+                    <i class="fa fa-book colored card-icon"></i>
+                </span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh elit sed diam nonummy nibh...</p>
+        </div>
+        <div class="col-md-2 separator"></div>
+        <div class="col-md-5 card bottom-card">
+            <div class="row">
+                <h2 class="colored col-md-10">Heading</h2>
+                <span class="col-md-2 pull-right">
+                    <i class="fa fa-paper-plane colored card-icon"></i>
+                    <i class="fa fa-book colored card-icon"></i>
+                </span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh elit sed diam nonummy nibh...</p>
+        </div>
+    </div>
+    <div class="row card-title">QUESTIONS</div>
+    <div class="row">
+        <div class="col-md-5 card bottom-card">
+            <div class="row">
+                <h2 class="colored col-md-10">Heading</h2>
+                <span class="col-md-2 pull-right">
+                    <i class="fa fa-paper-plane colored card-icon"></i>
+                    <i class="fa fa-book colored card-icon"></i>
+                </span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh elit sed diam nonummy nibh...</p>
+        </div>
+        <div class="col-md-2 separator"></div>
+        <div class="col-md-5 card bottom-card">
+            <div class="row">
+                <h2 class="colored col-md-10">Heading</h2>
+                <span class="col-md-2 pull-right">
+                    <i class="fa fa-paper-plane colored card-icon"></i>
+                    <i class="fa fa-book colored card-icon"></i>
+                </span>
+            </div>
+
+            <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit sed diam nonummy nibh elit sed diam nonummy nibh...</p>
+        </div>
+    </div>
 {% endblock %}
